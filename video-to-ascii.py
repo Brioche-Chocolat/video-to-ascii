@@ -9,7 +9,6 @@ from PIL import Image
 ESC = b'\033'
 CSI = ESC + b'['
 
-# Linux and new Windows supports ANSI Escape Sequences
 use_ansi_escape_sequences = True
 
 if not use_ansi_escape_sequences:
